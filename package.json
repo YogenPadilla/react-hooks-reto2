@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "^13.3.4",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "typeit": "^8.7.1"
   },
   "devDependencies": {
     "autoprefixer": "latest",

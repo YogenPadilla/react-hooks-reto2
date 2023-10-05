@@ -1,27 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Gentium Plus", serif;
+  background: rgb(61, 85, 96);
+  background: radial-gradient(
+    circle,
+    rgba(61, 85, 96, 1) 6%,
+    rgba(48, 63, 73, 1) 48%,
+    rgba(34, 40, 49, 1) 100%
+  );
+}
+
+.debug-red {
+  border: 2px solid #ff0000;
+}
+
+.debug-green {
+  border: 2px solid #00ff00;
+}
+.debug-blue {
+  border: 2px solid #0000ff;
+}
+
+.debug-p {
+  border: 2px solid #ffff00;
 }
