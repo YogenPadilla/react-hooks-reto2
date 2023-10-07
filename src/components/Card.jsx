@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 const Card = ({ name, image }) => {
   return (

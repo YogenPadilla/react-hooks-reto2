@@ -1,4 +1,3 @@
-import TypeIt from "typeit";
 import Button from "@/components/Button";
 import { useState } from "react";
 import { useEffect } from "react";

@@ -3,13 +3,13 @@ import Image from "next/image";
 import { useState } from "react";
 
 const images = [
-  "/assets/notice/pokemon.png",
   "/assets/notice/pokemon-1.png",
   "/assets/notice/pokemon-2.png",
   "/assets/notice/pokemon-3.png",
   "/assets/notice/pokemon-4.png",
   "/assets/notice/pokemon-5.png",
   "/assets/notice/pokemon-6.png",
+  "/assets/notice/pokemon.png",
   "/assets/notice/pokemon-7.png",
 ];
 

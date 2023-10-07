@@ -22,6 +22,15 @@ const Button = ({ variant, label, onClick, icon }) => {
         </button>
       )}
 
+          {variant === "shop" && (
+            <button
+              onClick={onClick}
+              className="text-md font-semibold rounded-[24px] text-[#F2Cb05] px-[48px] py-[4px] bg-[#D91A4D] hover:scale-110 active:scale-100"
+            >
+              {label}
+            </button>
+          )}
+
       {variant === "icon" && (
         <button
           onClick={onClick}
